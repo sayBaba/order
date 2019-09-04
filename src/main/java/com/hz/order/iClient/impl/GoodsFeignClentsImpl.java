@@ -12,6 +12,7 @@ public class GoodsFeignClentsImpl implements GoodsFeignClents {
 
     @Override
     public Item queryOrderById(Long id) {
+
         Item item1 = new Item(id, "查询商品信息出错!", null, null, null);
         return item1;
     }
